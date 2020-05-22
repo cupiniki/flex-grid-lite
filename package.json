@@ -4,7 +4,9 @@
   "description": "The Functional Flexbox Column Grid",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "sass": "node-sass scss/index.scss -o css/index.css",
+    "install": "npm run sass"
   },
   "repository": {
     "type": "git",
@@ -18,5 +20,8 @@
   "bugs": {
     "url": "https://github.com/cupiniki/flex-grid-lite/issues"
   },
-  "homepage": "https://github.com/cupiniki/flex-grid-lite#readme"
+  "homepage": "https://github.com/cupiniki/flex-grid-lite#readme",
+  "dependencies": {
+    "node-sass": "^4.14.1"
+  }
 }
