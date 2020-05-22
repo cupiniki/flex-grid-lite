@@ -1,0 +1,22 @@
+{
+  "name": "flex-grid-lite",
+  "version": "1.0.0",
+  "description": "The Functional Flexbox Column Grid",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/cupiniki/flex-grid-lite.git"
+  },
+  "keywords": [
+    "grid"
+  ],
+  "author": "cupiniki",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/cupiniki/flex-grid-lite/issues"
+  },
+  "homepage": "https://github.com/cupiniki/flex-grid-lite#readme"
+}
